@@ -1,6 +1,6 @@
 # MediCore Health Systems — Financial & Profitability Analytics | Tableau
 
-![Healthcare Financial Dashboard](Financial.png)
+![Healthcare Financial Dashboard](FINANCIAL.png)
 
 ---
 
