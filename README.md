@@ -22,7 +22,22 @@ To analyze healthcare data and identify opportunities to:
 - Improve revenue collection and cash flow  
 - Optimize treatment profitability  
 - Reduce missed appointments  
-- Enhance operational efficiency and resource allocation  
+- Enhance operational efficiency and resource allocation
+
+## Problem Statement
+
+MediCore Health Systems faces challenges in managing both financial performance and operational efficiency. The hospital lacks a unified, data-driven approach to:
+
+- Track profitability across different treatments  
+- Manage delayed and outstanding payments  
+- Reduce missed appointments and revenue loss  
+- Optimize doctor workload and scheduling efficiency  
+
+This results in:
+- Significant **outstanding revenue (~$140M)** affecting cash flow  
+- High **revenue loss (~$135.8M)** from missed appointments  
+- Dependency on slower payment methods such as insurance  
+- Inefficiencies in appointment scheduling and resource utilization  
 
 ---
 
