@@ -1,172 +1,146 @@
-# MediCore Health Systems — Financial & Profitability Analytics | Tableau
-
-![Healthcare Financial Dashboard](FINANCIAL.png)
+# MediCore Health Systems — Healthcare Analytics (Financial & Operational) | Tableau
 
 ---
 
-## Executive Summary
+## Overview
 
-This project analyzes financial performance for a healthcare system to identify inefficiencies in revenue collection, treatment profitability, and payment methods.
+MediCore Health Systems is a fictional healthcare provider offering a range of medical services, including:
 
-### Key Findings
-- Total treatment cost reached **$358.2M**, with **$42.5M profit**, indicating moderate margins  
-- Outstanding revenue of **$140M** highlights significant delays in payment collection  
-- Insurance accounts for **56.34% of revenue**, showing high dependency on a single payment method  
-- Surgery generates the highest revenue, but not the highest profit margin  
-- MRI shows the **highest profitability**, while X-ray has the **highest margin (~27.7%)**  
-- Revenue shows steady growth over time with seasonal fluctuations  
+- **Checkups**
+- **MRI (Magnetic Resonance Imaging)**
+- **X-ray diagnostics**
+- **Surgical procedures**
 
-### Business Impact
-- Improves revenue collection strategies  
-- Optimizes treatment pricing and profitability  
-- Reduces dependency on insurance payments  
-- Supports financial planning and operational efficiency  
-
----
-
-## Problem Statement
-
-Healthcare providers face challenges in:
-
-- Tracking profitability across treatment types  
-- Managing delayed or outstanding payments  
-- Understanding revenue contribution by payment methods  
-- Identifying high-cost vs high-profit services  
-
-This leads to:
-- Cash flow inefficiencies  
-- Suboptimal pricing decisions  
-- Over-reliance on specific payment channels  
+The hospital manages both **financial performance** and **patient appointment operations** across its departments. This project combines two dashboards to provide a complete view of business performance and operational efficiency.
 
 ---
 
 ## Objective
 
-To analyze financial and operational data to:
+To analyze healthcare data and identify opportunities to:
 
-- Improve revenue collection  
-- Optimize profitability across treatments  
-- Identify high-performing services  
-- Support data-driven financial decisions  
-
----
-
-# Analytical Insights
+- Improve revenue collection and cash flow  
+- Optimize treatment profitability  
+- Reduce missed appointments  
+- Enhance operational efficiency and resource allocation  
 
 ---
 
-## 1. Revenue vs Profit by Treatment
+# Dashboard 1: Financial & Profitability Analysis
 
-### Analysis  
-- Surgery generates the highest revenue (~$250M+)  
-- MRI delivers the highest profit (~$20M+)  
-- X-ray shows the highest profit margin (~27.7%)  
+![Financial Dashboard](FINANCIAL.png)
 
----
+## Key Insights
 
-### Insight  
-High revenue does not always mean high profitability. Some treatments are more efficient despite lower revenue.
-
----
-
-### Business Action  
-- Focus on high-margin treatments  
-- Optimize pricing strategies  
-- Balance high-volume vs high-profit services  
-
----
-
-## 2. Outstanding Revenue (Cash Flow Risk)
-
-### Analysis  
+### 1. Financial Performance & Cash Flow
+- Total treatment cost: **$358.2M**  
+- Total profit: **$42.5M**  
 - Outstanding revenue: **$140M**  
 
----
-
-### Insight  
-A large portion of revenue is delayed, affecting cash flow and financial stability.
+👉 **Insight:**  
+Strong revenue generation is impacted by **delayed payments and cash flow inefficiencies**.
 
 ---
 
-### Business Action  
-- Improve billing and collection processes  
-- Reduce payment delays  
-- Monitor unpaid revenue more closely  
+### 2. Payment Method Dependency
+- Insurance: **56 percent of revenue**  
+- Card: **35.9 percent**  
+- Cash: **7.76 percent**  
+
+👉 **Insight:**  
+Heavy reliance on insurance leads to **slower revenue realization and higher pending payments**.
 
 ---
 
-## 3. Payment Method Distribution
+### 3. Profitability by Treatment
+- Surgery: highest revenue  
+- MRI: highest profit  
+- X-ray: highest margin (~27.7 percent)  
 
-### Analysis  
-- Insurance: **56.34%**  
-- Card: **35.90%**  
-- Cash: **7.76%**  
-
----
-
-### Insight  
-Revenue is highly dependent on insurance payments, which often have longer processing times.
+👉 **Insight:**  
+High revenue does not always mean high profitability, highlighting **pricing and cost optimization opportunities**.
 
 ---
 
-### Business Action  
-- Diversify payment methods  
-- Encourage faster payment channels (card)  
-- Optimize insurance claim processing  
+### 4. Revenue Trend
+- Revenue increases over time with some fluctuations  
+
+👉 **Insight:**  
+Growth is positive but **not consistent**, suggesting seasonal or operational factors.
 
 ---
 
-## 4. Payment Status Analysis
+# Dashboard 2: Appointment Efficiency & Operations
 
-### Analysis  
-- Insurance payments show the highest pending amounts  
-- Card payments are mostly completed (paid)  
+![Appointment Dashboard](Appointment.png)
 
----
+## Key Insights
 
-### Insight  
-Insurance introduces delays in revenue realization compared to direct payments.
+### 1. Revenue Loss from Missed Appointments
+- Revenue loss: **$135.8M**  
 
----
-
-### Business Action  
-- Improve insurance claim workflows  
-- Reduce pending payment backlog  
-- Automate payment tracking  
+👉 **Insight:**  
+Missed appointments create a **significant financial and operational loss**.
 
 ---
 
-## 5. Revenue Trend Over Time
+### 2. Appointment Completion Rate
+- Completed: **75 percent**  
+- Remaining: cancellations and no-shows  
 
-### Analysis  
-- Revenue grows from ~30M to ~37M over the year  
-- Some fluctuations indicate seasonal variation  
-
----
-
-### Insight  
-Revenue is increasing but not consistent, suggesting external or seasonal factors.
+👉 **Insight:**  
+A large portion of appointments is not completed, reducing efficiency and revenue.
 
 ---
 
-### Business Action  
-- Forecast demand and revenue  
-- Plan resources based on trends  
-- Stabilize revenue streams  
+### 3. Doctor Workload & Specialization
+- Workload is **evenly distributed across specializations**  
+- Completion rates are consistent (70–80 percent)  
+
+👉 **Insight:**  
+The system is balanced, but **small improvements in completion rates can increase total completed appointments and revenue**.
+
+---
+
+### 4. Appointment Trends
+- Monthly volume: **~22K to ~25K appointments**  
+
+👉 **Insight:**  
+Demand fluctuates, requiring **better forecasting and scheduling optimization**.
+
+---
+
+### 5. Treatment & Appointment Patterns
+- Some treatments show higher cancellation rates  
+
+👉 **Insight:**  
+Certain services are more prone to cancellations, affecting operational performance.
+
+---
+
+# Business Recommendations
+
+- Improve **payment collection processes** to reduce outstanding revenue  
+- Reduce missed appointments through **reminders and scheduling optimization**  
+- Focus on **high-margin treatments** to improve profitability  
+- Optimize **pricing strategies across services**  
+- Maintain balanced workloads while improving **completion rates**  
+- Use demand trends to improve **staffing and resource planning**  
 
 ---
 
 # Business Impact
 
-This project enables:
+This project enables MediCore Health Systems to:
 
-- Better financial planning  
-- Improved cash flow management  
-- Increased profitability through pricing optimization  
-- Reduced dependency on delayed payment channels  
+- Improve **cash flow and revenue collection**  
+- Increase **profitability across treatments**  
+- Reduce **operational inefficiencies**  
+- Enhance **appointment scheduling and resource allocation**  
+- Support **data-driven decision-making**  
 
 ---
 
 # Key Takeaway
 
-This analysis highlights the importance of balancing revenue, profitability, and payment efficiency to improve financial performance in healthcare systems.
+Combining financial and operational analytics shows that improving payment efficiency, reducing missed appointments, and optimizing treatment performance are key to maximizing profitability and operational efficiency in healthcare systems.
