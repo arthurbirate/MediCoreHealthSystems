@@ -49,7 +49,7 @@ MediCore faces challenges in managing financial and operational performance due 
 
 # 📊 Dashboard 1 — Financial & Profitability Analysis
 
-![Financial Dashboard](FINANCIAL.png)
+![Financial Dashboard](FINANCIALD.png)
 
 ## 🔍 Key Insights
 
