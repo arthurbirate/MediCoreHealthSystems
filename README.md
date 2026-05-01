@@ -93,7 +93,7 @@ Growth is positive but **inconsistent**, indicating possible seasonal or operati
 
 # 📊 Dashboard 2 — Appointment Efficiency & Operational Performance
 
-![Appointment Dashboard](Appointment.png)
+![Appointment Dashboard](AppointmentD.png)
 
 ## 🔍 Key Insights
 
