@@ -91,53 +91,82 @@ Growth is positive but **inconsistent**, indicating possible seasonal or operati
 
 ---
 
-# 📊 Dashboard 2 — Appointment Efficiency & Operations
+# 📊 Dashboard 2 — Appointment Efficiency & Operational Performance
 
 ![Appointment Dashboard](Appointment.png)
 
 ## 🔍 Key Insights
 
-### ❌ Revenue Loss from Missed Appointments
-- Total loss: **$135.8M**  
+### 1. 💰 Revenue per Appointment
+- Average revenue per appointment: **$1.3K**
 
 👉 **Insight:**  
-Missed appointments represent a **major operational and financial inefficiency**.
+Each appointment generates strong value, meaning missed or inefficient appointments have a significant financial impact.
 
 ---
 
-### 📅 Appointment Completion Rate
-- Completed: **75%**  
-- Cancelled / No-shows: **25%**  
+### 2. ❌ Revenue Loss from Missed Appointments
+- Total loss: **$135.8M**
 
 👉 **Insight:**  
-A significant portion of appointments is not completed, directly reducing efficiency and revenue.
+Missed appointments represent a major revenue leakage and highlight inefficiencies in scheduling and patient management.
 
 ---
 
-### 👨‍⚕️ Doctor Workload & Specialization
-- Workload is **evenly distributed across specializations**  
-- Completion rates remain consistent (**70–80%**)  
+### 3. 👨‍⚕️ Appointments per Doctor
+- Some doctors handle slightly more appointments than others  
+- Overall distribution remains relatively balanced  
 
 👉 **Insight:**  
-The system is well-balanced, but **small improvements in completion rates can significantly increase total appointments and revenue**.
+Workload is fairly well distributed, but small differences may affect efficiency and waiting times.
 
 ---
 
-### 📊 Appointment Trends
-- Monthly volume: **~22K – 25K appointments**  
+### 4. 📊 Doctor Workload vs Efficiency (Scatter Plot)
+- Completion rates are consistent (around **70–80%**)  
+- Appointment volume is similar across specializations  
 
 👉 **Insight:**  
-Demand fluctuates, requiring **better forecasting and scheduling optimization**.
+The system is balanced, but even small improvements in completion rates can significantly increase total completed appointments and revenue.
 
 ---
 
-### 🧪 Treatment & Appointment Patterns
-
-- Cancellation, completed, and no-show rates are relatively balanced  
-- Some appointments do not result in any treatment  
+### 5. 📈 Appointment Trend Over Time
+- Monthly appointments range from **~22K to ~25K**  
+- Fluctuations across months  
 
 👉 **Insight:**  
-Appointment outcomes are fairly evenly distributed, indicating no major imbalance. However, even small differences between completed, cancelled, and no-show appointments, along with appointments that do not convert into treatments, can reduce overall efficiency and impact resource planning at scale.
+Demand is not stable, requiring better forecasting and adaptive scheduling.
+
+---
+
+### 6. 🔄 Appointment Status Breakdown
+- Completed: **~75%**  
+- Cancelled and no-show: **~25% combined**  
+
+👉 **Insight:**  
+There is no extreme imbalance, but the gap is still large enough to impact efficiency and revenue.
+
+---
+
+### 7. 🧪 Appointments by Treatment
+- Some treatments have higher cancellation proportions  
+- A noticeable portion of appointments results in **no treatment**
+
+👉 **Insight:**  
+Not all appointments convert into treatments, which reduces operational efficiency and resource utilization. Improving conversion from appointment to treatment is a key opportunity.
+
+---
+
+# 🎯 Summary Insight
+
+Even though the system appears **balanced and stable**, inefficiencies come from:
+
+- Missed appointments  
+- Partial conversion (appointments → treatments)  
+- Small gaps in completion rates  
+
+👉 These small inefficiencies, when scaled, lead to **significant revenue loss and operational impact**.
 
 ---
 
