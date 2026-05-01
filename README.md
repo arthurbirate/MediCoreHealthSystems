@@ -132,10 +132,12 @@ Demand fluctuates, requiring **better forecasting and scheduling optimization**.
 ---
 
 ### 🧪 Treatment & Appointment Patterns
-- Certain treatments show higher cancellation rates  
+
+- Cancellation, completed, and no-show rates are relatively balanced  
+- Some appointments do not result in any treatment  
 
 👉 **Insight:**  
-Some services are more prone to cancellations, impacting **operational efficiency and planning**.
+Appointment outcomes are fairly evenly distributed, indicating no major imbalance. However, even small differences between completed, cancelled, and no-show appointments, along with appointments that do not convert into treatments, can reduce overall efficiency and impact resource planning at scale.
 
 ---
 
